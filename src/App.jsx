@@ -3,345 +3,351 @@ import "./styles.css";
 
 const subjects = {
   HISTORY: [
-    "The Harappan Civilization was discovered in 1921 by Dayaram Sahni.",
-    "The Third Battle of Panipat took place in 1761 between Marathas and Abdali.",
-    "Raja Ram Mohan Roy is known as the Father of Indian Renaissance.",
-    "The Battle of Plassey in 1757 marked the beginning of British rule in India.",
-    "The Indus Valley people developed the first system of uniform weights.",
-    "Kalhana wrote Rajatarangini in Sanskrit during the 12th century.",
-    "Ashoka the Great converted to Buddhism after the Kalinga War.",
-    "The Quit India Movement was launched by Mahatma Gandhi in August 1942.",
-    "The First War of Independence started at Meerut on May 10, 1857.",
-    "The Indian National Congress was founded in December 1885.",
-    "The Champaran Satyagraha was Gandhi's first satyagraha movement.",
-    "Chandragupta Maurya founded the Mauryan Empire with Chanakya's help.",
-    "The Simon Commission arrived in British India in 1928.",
-    "Sher Shah Suri introduced the Rupiya currency during his reign.",
-    "The Mughal Empire reached its peak under Akbar the Great.",
-    "The Dandi March by Gandhi started from Sabarmati Ashram in 1930.",
-    "Bhagat Singh was executed on March 23, 1931.",
-    "The Permanent Settlement of Bengal was introduced by Lord Cornwallis.",
-    "Aryabhatta was the famous mathematician of the Gupta period.",
-    "The Vedas are the oldest literary record of the Indo-Aryan civilization.",
-    "Lala Lajpat Rai is known as the Lion of Punjab or Sher-e-Punjab.",
-    "The Rowlatt Act of 1919 authorized the government to imprison people.",
-    "Annie Besant was the first woman President of the Indian National Congress.",
-    "The Battle of Buxar was fought in 1764 between British and allied forces.",
-    "The Subsidiary Alliance system was introduced by Lord Wellesley.",
-  ],
-  ACCOUNTS: [
-    "The Golden Rule of Real Account: Debit what comes in, Credit what goes out.",
-    "Goodwill is an intangible asset representing the reputation of a business.",
-    "The Trial Balance ensures the arithmetical accuracy of ledger accounts.",
-    "Double Entry System was first documented by Luca Pacioli in 1494.",
-    "Assets equal Liabilities plus Capital is the fundamental accounting equation.",
-    "Depreciation is the systematic reduction in the cost of a fixed asset.",
-    "Inventory valuation can be done using FIFO or Weighted Average methods.",
-    "A Balance Sheet shows the financial position at a point in time.",
-    "Current Assets are those convertible into cash within one year.",
-    "Capital expenditure provides long term benefits to the organization.",
-    "Outstanding expenses are treated as a liability in the final accounts.",
-    "Petty cash book is maintained for recording small routine payments.",
-    "Bank Reconciliation Statement matches cash book and pass book.",
-    "Drawings reduce the capital of the owner in a sole proprietorship.",
-    "Prepaid insurance is shown on the assets side of the balance sheet.",
-    "Journal is known as the book of original entry in accounting.",
-    "A credit note is issued by the seller for sales return.",
-    "Profit and Loss account shows the net results of operations.",
-    "Bad debts are written off when a debtor is unable to pay.",
-    "Accrual concept states income is recorded when it is earned.",
-    "Nominal accounts deal with expenses, losses, incomes and gains.",
-    "The going concern concept assumes the business will continue forever.",
-    "Contingent liabilities are shown as a footnote in the balance sheet.",
-    "The matching principle ensures expenses match the revenue earned.",
-    "Narration is a brief explanation of the transaction in a journal entry.",
+    "First site of Harappan Civilization discovered in 1921 by Dayaram Sahni.",
+    "Third Battle of Panipat (1761) saw the Marathas defeated by Ahmad Shah Abdali.",
+    "Raja Ram Mohan Roy founded Brahmo Samaj and campaigned against Sati.",
+    "Battles of Plassey and Buxar established British foundations in India.",
+    "Chandragupta Maurya defeated the Nandas and Chanakya wrote Arthashastra.",
+    "The 1857 Revolt started in Meerut on May 10 as the First War of Independence.",
+    "Dandi March in 1930 broke the Salt Law and started Civil Disobedience.",
+    "Indian National Congress was founded by A.O. Hume in 1885.",
+    "Permanent Settlement was introduced by Cornwallis and Ryotwari by Munro.",
+    "Bhagat Singh, Rajguru, and Sukhdev were executed on March 23, 1931.",
+    "The Indus Valley port city of Lothal features an artificial dockyard.",
+    "Harsha-Vardhana was defeated by Pulakeshin II on the banks of Narmada.",
+    "The Iqta System for military officers was introduced by Iltutmish.",
+    "Din-i-Ilahi was a syncretic religion propounded by Akbar in 1582.",
+    "Swaraj Party was formed in 1923 by C.R. Das and Motilal Nehru.",
+    "Annie Besant and Tilak launched the Home Rule League Movement in 1916.",
+    "Poona Pact (1932) was signed between Gandhi and Ambedkar.",
+    "Fa-Hien visited during Chandragupta II and Hiuen Tsang during Harsha.",
+    "Cabinet Mission (1946) discussed the transfer of power and framework.",
+    "Subhash Chandra Bose took leadership of the INA in Singapore in 1943."
   ],
   GEOGRAPHY: [
-    "The Ozone layer is found in the Stratosphere and protects from UV radiation.",
-    "Wular Lake in Jammu and Kashmir is one of the largest freshwater lakes in Asia.",
-    "The Nile is traditionally considered the longest river in the world.",
-    "Mount Everest is the highest peak on Earth reaching 8848 meters.",
-    "The Amazon is the world's largest rainforest and regulates oxygen cycles.",
-    "The Indian Standard Time is calculated on the basis of 82.5 degrees East.",
-    "The Tropic of Cancer passes through eight states in India.",
-    "The Deccan Plateau is the largest plateau in the Indian subcontinent.",
-    "The Sundarbans are the largest mangrove forests in the world.",
-    "Black soil is also known as Regur soil and is ideal for cotton.",
-    "The Nathu La pass connects Sikkim with Tibet.",
-    "The Richter scale measures the intensity of earthquakes.",
-    "Tides are caused by the gravitational pull of the moon and sun.",
-    "The atmosphere consists of seventy eight percent nitrogen gas.",
-    "Ladakh is known as a cold desert in northern India.",
-    "The Palk Strait separates India from Sri Lanka.",
-    "Kaziranga National Park is famous for the one horned rhinoceros.",
-    "Solar radiation is the primary source of energy for Earth.",
-    "The longitudinal extent of India is approximately thirty degrees.",
-    "The Luni river is the only major river in the Thar Desert.",
-    "Earth completes its revolution around the sun in three hundred sixty five days.",
-    "The layer of the earth on which we live is called the crust.",
-    "Magma that reaches the earth's surface is known as lava.",
-    "The study of maps and map-making is called cartography.",
-    "The largest ocean on the earth is the Pacific Ocean.",
+    "Troposphere contains 99 percent water vapor and Stratosphere has Ozone.",
+    "Mt. Everest is the highest Himalayan peak and K2 is highest in India.",
+    "Indian Standard Time is five and a half hours ahead of Greenwich Mean Time.",
+    "Regur soil is volcanic and best for cotton while Alluvial is most fertile.",
+    "Brahmaputra is known as Tsangpo in Tibet and forms the largest delta.",
+    "Nathu La and Shipki La are vital trade links between India and China.",
+    "Palk Strait separates India and Sri Lanka and 10 Degree Channel separates Andaman.",
+    "Tropical Evergreen forests in Western Ghats require high annual rainfall.",
+    "Venus is the hottest planet and Jupiter has the shortest day-night cycle.",
+    "Chota Nagpur Plateau is known as the Ruhr of India for mineral deposits.",
+    "The Western Ghats are a UNESCO World Heritage site and biodiversity hotspot.",
+    "El Nino describes unusual warming of surface waters in the eastern Pacific.",
+    "The Tropic of Cancer passes through eight Indian states including Gujarat.",
+    "Majuli in the Brahmaputra is the largest inhabited riverine island.",
+    "Standard Deviation of rainfall is highest in Rajasthan causing droughts.",
+    "The Equinox occurs twice a year when day and night are of equal duration.",
+    "Jet Streams are high-altitude winds that influence the Indian Monsoon.",
+    "Red Soil gets its color from iron oxide and is porous and friable.",
+    "The Great Barrier Reef off Australia is the world largest coral reef system.",
+    "Bhangar is old alluvial soil while Khadar is new flood-plain alluvium."
+  ],
+  ACCOUNTS: [
+    "Real Accounts rule: debit what comes in and credit what goes out.",
+    "Nominal Accounts rule: debit all expenses and credit all incomes.",
+    "Double Entry system was documented by Luca Pacioli for every transaction.",
+    "Depreciation is the systematic allocation of the cost of fixed assets.",
+    "Accrual Concept recognizes revenue and costs as they are earned.",
+    "Goodwill is an intangible asset valued during business sale or partnership.",
+    "Bank Reconciliation identifies differences between Cash Book and Pass Book.",
+    "Going Concern assumes that the enterprise will function for an indefinite period.",
+    "Accounting standards value inventory at cost or net realizable value.",
+    "Capital Expenditure increases earning capacity while revenue maintains it.",
+    "Contingent Liabilities are potential obligations shown in footnotes.",
+    "Consistency Principle states that accounting practices remain unchanged.",
+    "Prudence principle suggests anticipating no profit but providing for losses.",
+    "Tally software automates ledger posting and trial balance generation.",
+    "Error of Principle occurs when capital transaction is recorded as revenue.",
+    "Fictitious Assets have no realizable value but are shown on Balance Sheet.",
+    "Drawings represent cash or goods taken by the owner for personal use.",
+    "Journal Proper is used for transactions not in specialized subsidiary books."
   ],
   POLITICAL: [
-    "The Indian Constitution is the longest written constitution in the world.",
-    "Fundamental Rights are enshrined in Part III of the Constitution.",
-    "The Preamble declares India as a Sovereign Socialist Secular Republic.",
-    "Article 32 is known as the Heart and Soul of the Constitution.",
-    "Universal Adult Franchise means all citizens above 18 can vote.",
-    "The President is the supreme commander of the armed forces.",
-    "The Rajya Sabha is the upper house and a permanent body.",
-    "The Supreme Court of India was established on January 26, 1950.",
-    "Directive Principles are borrowed from the Irish Constitution.",
-    "The Panchayati Raj system was first adopted in Rajasthan.",
-    "Right to Education became a fundamental right in 2002.",
-    "The Governor of a state is appointed by the President.",
-    "Article 370 was revoked from Jammu and Kashmir in August 2019.",
-    "The Speaker of Lok Sabha presides over the joint sitting.",
-    "Fundamental Duties were added by the 42nd Amendment Act.",
-    "Sovereignty means the state has power to legislate on any subject.",
-    "The Election Commission conducts elections for the Parliament.",
-    "The Finance Commission is constituted every five years.",
-    "A Money Bill can only be introduced in the Lok Sabha.",
-    "The Prime Minister is the real executive head of the government.",
-    "The Rajya Sabha can have a maximum strength of two hundred fifty members.",
-    "The tenure of a member of Rajya Sabha is six years.",
-    "Article 360 of the constitution deals with Financial Emergency.",
-    "The first Lok Sabha was constituted in the year 1952.",
-    "The concept of Judicial Review is borrowed from the United States.",
+    "Preamble is based on Objectives Resolution and amended only once.",
+    "Article 17 abolishes Untouchability and Article 21 guarantees Right to Life.",
+    "Article 32 and Article 226 empower the judiciary to issue writs.",
+    "President is the nominal head while Prime Minister is the real executive.",
+    "Rajya Sabha is the Upper House with a maximum of two hundred fifty members.",
+    "The 44th Amendment removed Right to Property from Fundamental Rights.",
+    "Constitutional status was given to Panchayats and Municipalities in 1992.",
+    "Constitution provides for National, State, and Financial emergency.",
+    "NITI Aayog replaced the Planning Commission to serve as a policy think tank.",
+    "The 61st Amendment lowered the voting age from twenty one to eighteen years.",
+    "Fundamental Duties were added on recommendation of Swaran Singh Committee.",
+    "Joint Sitting is called by President but presided over by the Speaker.",
+    "Directive Principles are non-justiciable but fundamental in governance.",
+    "Comptroller and Auditor General is the Guardian of the Public Purse.",
+    "Anti-Defection Law was added to the Constitution via Tenth Schedule.",
+    "Governor holds office during the pleasure of the President for five years.",
+    "Judicial Review allows Supreme Court to examine legislative acts.",
+    "Attorney General is the highest law officer and can participate in Parliament.",
+    "Pocket Veto allows President to keep a bill pending indefinitely.",
+    "Sixth Schedule provides for administration of tribal areas in North East."
   ],
   SCIENCE: [
-    "Mitochondria are often referred to as the powerhouse of the cell.",
-    "Newton's Third Law: For every action, there is an equal opposite reaction.",
-    "Light travels at a speed of approximately 300,000 kilometers per second.",
-    "The chemical symbol for Gold is Au, derived from the Latin word Aurum.",
-    "Photosynthesis converts light energy into chemical energy.",
-    "The human body contains two hundred and six bones.",
-    "Water has maximum density at four degrees Celsius.",
-    "Diamond is the hardest naturally occurring substance.",
-    "Solid changing directly into gas is called sublimation.",
-    "Vitamin C is essential for the repair of body tissues.",
-    "The PH value of pure water is seven which is neutral.",
-    "Sodium is a highly reactive metal stored under kerosene.",
-    "Sound cannot travel through a vacuum medium.",
-    "The Earth completes one rotation every twenty four hours.",
-    "Chlorophyll allows plants to capture sunlight energy.",
-    "The study of heredity and variation is known as genetics.",
-    "Penicillin was the first antibiotic discovered by Alexander Fleming.",
-    "Ohm is the unit used to measure electrical resistance.",
-    "Carbon dioxide is the main gas responsible for global warming.",
-    "The smallest unit of an element is called an atom.",
-    "Mercury is the only metal that remains liquid at room temperature.",
-    "The human brain is the command center for the nervous system.",
-    "Inertia is the tendency of an object to resist changes in motion.",
-    "The boiling point of water is one hundred degrees Celsius.",
-    "Red blood cells are responsible for carrying oxygen through the body.",
-  ],
+    "Mitochondria produce energy and Ribosomes are sites of protein synthesis.",
+    "Newton laws include the law of inertia and the law of action and reaction.",
+    "Refraction causes stars to twinkle and total internal reflection is in fibers.",
+    "Mercury is liquid at room temperature while Sodium is soft enough to cut.",
+    "Small Intestine is where digestion occurs and Liver is the largest gland.",
+    "Vitamins deficiencies lead to night blindness, scurvy, or rickets.",
+    "Sound waves are longitudinal waves that cannot travel in a vacuum.",
+    "Myopia is corrected by Concave lenses and Hypermetropia by Convex.",
+    "Global warming is caused by greenhouse gases like carbon dioxide.",
+    "Enzymes are biological catalysts that break down starch and proteins.",
+    "Archimedes Principle explains buoyancy and why objects float or sink.",
+    "Xylem transports water and minerals while Phloem transports food.",
+    "The pH Scale ranges from zero to fourteen where seven is neutral.",
+    "DNA carries genetic information and its structure is a double helix.",
+    "Galvanization is the process of applying a Zinc coating to prevent rusting.",
+    "Doppler Effect is the change in frequency in relation to moving observer.",
+    "Endocrine Glands secrete hormones directly into the bloodstream.",
+    "Nuclear Fusion is the source of Sun energy while fission is in plants."
+  ]
 };
+
+const beginnerLessons = {
+  "HOME ROW": [
+    "asdf jkl; ASDF JKL;", 
+    "fghj fghj FGHJ FGHJ", 
+    "asdf gh jkl; ASDF GH JKL;", 
+    "aj sk dl f; AJ SK DL F;", 
+    "fads glass flasks SALAD GLASS"
+  ],
+  "TOP ROW": [
+    "qwer tpoi QWER TPOI", 
+    "qwert yuiop QWERT YUIOP", 
+    "qetuo qetuo QETUO QETUO", 
+    "type writer TYPE WRITER", 
+    "power quiet route POWER QUIET"
+  ],
+  "BOTTOM ROW": [
+    "zxcv m,./ ZXCV M,./", 
+    "zxcvb nm,./ ZXCVB NM,./", 
+    "vbnm vbnm VBNM VBNM", 
+    "zone civic music ZONE CIVIC", 
+    "boxer vapor zebra BOXER VAPOR"
+  ],
+  "ALL ROWS": [
+    "The Quick Brown Fox Jumps Over The Lazy Dog",
+    "The Quick Brown Fox Jumps Over The Lazy Dog",
+    "Typing Speed Is Key To Success In Exams",
+    "Typing Speed Is Key To Success In Exams",
+    "Practice Home Top And Bottom Rows Daily",
+    "Practice Home Top And Bottom Rows Daily",
+    "Keep Your Shoulders Relaxed And Back Straight",
+    "Keep Your Shoulders Relaxed And Back Straight",
+    "Consistency Beats Intensity In Typing Practice",
+    "Consistency Beats Intensity In Typing Practice",
+    "Mastering The Keyboard Takes Time And Effort",
+    "Mastering The Keyboard Takes Time And Effort",
+    "Use All Ten Fingers To Type Efficiently",
+    "Use All Ten Fingers To Type Efficiently",
+    "Watch The Screen Not The Keyboard While Typing",
+    "Watch The Screen Not The Keyboard While Typing"
+  ]
+};
+
+const typeSound = new Audio("https://www.fesliyanstudios.com/play-mp3/6");
 
 export default function App() {
   const [isWelcome, setIsWelcome] = useState(true);
+  const [mode, setMode] = useState("PRO");
   const [category, setCategory] = useState("HISTORY");
   const [currentText, setCurrentText] = useState("");
   const [userInput, setUserInput] = useState("");
+  const [totalCharsTyped, setTotalCharsTyped] = useState(0);
+  const [totalErrors, setTotalErrors] = useState(0);
   const [startTime, setStartTime] = useState(null);
-  const [timeLeft, setTimeLeft] = useState(60);
+  const [timeLeft, setTimeLeft] = useState(120);
   const [isActive, setIsActive] = useState(false);
   const [wpm, setWpm] = useState(0);
   const [accuracy, setAccuracy] = useState(100);
   const [isFinished, setIsFinished] = useState(false);
-  const [usedIndexes, setUsedIndexes] = useState([]);
+  const [streak, setStreak] = useState(0);
   const inputRef = useRef(null);
 
-  const setRandomFact = (cat) => {
-    const data = subjects[cat];
-    let available = data
-      .map((_, i) => i)
-      .filter((i) => !usedIndexes.includes(i));
-    if (available.length === 0) {
-      available = data.map((_, i) => i);
-      setUsedIndexes([]);
+  const setRandomText = (cat, currentMode) => {
+    const data = currentMode === "PRO" ? subjects[cat] : beginnerLessons[cat];
+    if (data) {
+      if (currentMode === "BEGINNER" && cat === "ALL ROWS" && totalCharsTyped === 0) {
+        setCurrentText(data[0]);
+      } else {
+        const randomIndex = Math.floor(Math.random() * data.length);
+        setCurrentText(data[randomIndex]);
+      }
     }
-    const randomIndex = available[Math.floor(Math.random() * available.length)];
-    setCurrentText(data[randomIndex]);
-    setUsedIndexes((prev) => [...prev, randomIndex]);
   };
 
   useEffect(() => {
-    setRandomFact(category);
-  }, [category]);
-
-  useEffect(() => {
-    let interval = null;
-    if (isActive && timeLeft > 0) {
-      interval = setInterval(() => setTimeLeft((t) => t - 1), 1000);
-    } else if (timeLeft === 0) {
-      setIsActive(false);
-      setIsFinished(true);
+    if (!isWelcome && !isFinished) {
+      setRandomText(category, mode);
     }
-    return () => clearInterval(interval);
-  }, [isActive, timeLeft]);
+  }, [category, mode, isWelcome, isFinished]);
 
   useEffect(() => {
-    const start = (e) => {
-      if (isWelcome && e.key.length === 1) setIsWelcome(false);
-    };
-    window.addEventListener("keydown", start);
-    return () => window.removeEventListener("keydown", start);
-  }, [isWelcome]);
+    if (currentText && inputRef.current && !isFinished) {
+      inputRef.current.focus();
+    }
+  }, [currentText, isFinished]);
 
   useEffect(() => {
-    if (!isWelcome && inputRef.current && !isFinished) inputRef.current.focus();
-  }, [isWelcome, currentText, isFinished]);
+    let timer;
+    if (mode === "PRO" && isActive && timeLeft > 0) {
+      timer = setInterval(() => {
+        setTimeLeft((prev) => {
+          if (prev <= 1) {
+            setIsActive(false);
+            setIsFinished(true);
+            return 0;
+          }
+          return prev - 1;
+        });
+      }, 1000);
+    }
+    return () => clearInterval(timer);
+  }, [isActive, mode, timeLeft]);
 
   const handleInput = (e) => {
-    if (isFinished) return;
-    const val = e.target.value.replace(/[\n\r]/g, "");
+    if (isFinished || mode === "GAME" || !currentText) return;
+    const val = e.target.value;
 
-    if (!isActive && val.length > 0) {
+    if (!isActive && val.length === 1) {
       setIsActive(true);
       setStartTime(Date.now());
     }
 
-    if (val.length === currentText.length) {
-      setUserInput("");
-      setRandomFact(category);
-      return;
+    if (mode === "BEGINNER" && val.length > userInput.length) {
+      typeSound.currentTime = 0;
+      typeSound.play();
     }
 
-    setUserInput(val);
+    if (val.length > userInput.length) {
+      setTotalCharsTyped((p) => p + 1);
+      if (val[val.length - 1] === currentText[val.length - 1]) {
+        setStreak((p) => p + 1);
+      } else {
+        setTotalErrors((p) => p + 1);
+        setStreak(0);
+      }
+    }
+
+    if (val.length === currentText.length) {
+      setUserInput("");
+      setRandomText(category, mode);
+    } else {
+      setUserInput(val);
+    }
+
     if (startTime) {
-      const mins = (Date.now() - startTime) / 60000;
-      let err = 0;
-      val.split("").forEach((c, i) => {
-        if (c !== currentText[i]) err++;
-      });
-      setWpm(Math.round(val.length / 5 / mins) || 0);
-      setAccuracy(Math.round(((val.length - err) / (val.length || 1)) * 100));
+      const elapsed = (Date.now() - startTime) / 60000;
+      const curWpm = elapsed > 0 ? Math.round(totalCharsTyped / 5 / elapsed) : 0;
+      const curAcc = totalCharsTyped > 0 ? Math.round(((totalCharsTyped - totalErrors) / totalCharsTyped) * 100) : 100;
+      setWpm(curWpm);
+      setAccuracy(curAcc);
     }
   };
 
-  const timerClass =
-    timeLeft > 20
-      ? "timer-green"
-      : timeLeft > 10
-      ? "timer-yellow"
-      : "timer-red blink";
+  const resetGame = (m, c) => {
+    setMode(m);
+    setCategory(c);
+    setIsWelcome(false);
+    setIsFinished(false);
+    setIsActive(false);
+    setTimeLeft(120);
+    setUserInput("");
+    setWpm(0);
+    setAccuracy(100);
+    setTotalCharsTyped(0);
+    setTotalErrors(0);
+    setStartTime(null);
+    setStreak(0);
+  };
 
-  if (isWelcome)
+  const themeClass = mode === "GAME" ? "theme-purple" : mode === "BEGINNER" ? "theme-yellow" : "theme-green";
+
+  if (isWelcome) {
     return (
       <div className="splash-screen">
         <div className="welcome-card">
-          <div className="terminal-header">
-            <span className="dot red"></span>
-            <span className="dot yellow"></span>
-            <span className="dot green"></span>
+          <div className="brand-hd welcome-hd-fix">
+            <span className="nav-bolt-hd">⚡</span>
+            <span className="logo-text-plain">TICKER - TYPING</span>
           </div>
-          <h1 className="main-logo">⚡ TICKER-TYPING</h1>
-          <p className="system-ready">SYSTEM STATUS: READY TO BOOT</p>
-          <div className="start-trigger">
-            <span className="blink-arrow">></span> Press any key to start
-            practice
+          <div className="welcome-mode-select">
+            <button className="theme-btn btn-yellow" onClick={() => resetGame("BEGINNER", "HOME ROW")}>BEGINNER</button>
+            <button className="theme-btn btn-green" onClick={() => resetGame("PRO", "HISTORY")}>PRO MODE</button>
+            <button className="theme-btn btn-purple" onClick={() => resetGame("GAME", "GAME")}>GAME</button>
           </div>
         </div>
       </div>
     );
+  }
 
   return (
-    <div className="app-main">
-      {isActive && (
-        <div
-          className={`timer-bar ${timerClass}`}
-          style={{ width: `${(timeLeft / 60) * 100}%` }}
-        ></div>
-      )}
+    <div className={`app-main ${themeClass}`}>
       <header className="nav-bar">
-        <div className="brand">⚡ TICKER-TYPING</div>
-        <div className="tabs">
-          {Object.keys(subjects).map((s) => (
-            <button
-              key={s}
-              className={category === s ? "active" : ""}
-              onClick={() => {
-                setCategory(s);
-                setTimeLeft(60);
-                setIsFinished(false);
-                setIsActive(false);
-                setUserInput("");
-                setWpm(0);
-                setUsedIndexes([]);
-              }}
-            >
-              {s}
-            </button>
-          ))}
+        <div className="brand-hd" onClick={() => setIsWelcome(true)} style={{ cursor: "pointer" }}>
+          <span className="nav-bolt-hd">⚡</span>
+          <span className="logo-text-plain">TICKER - TYPING</span>
+        </div>
+        <div className="mode-toggle">
+          <button className={mode === "BEGINNER" ? "active-mode mode-yellow" : ""} onClick={() => resetGame("BEGINNER", "HOME ROW")}>BEGINNER</button>
+          <button className={mode === "PRO" ? "active-mode mode-green" : ""} onClick={() => resetGame("PRO", "HISTORY")}>PRO</button>
+          <button className={mode === "GAME" ? "active-mode mode-purple" : ""} onClick={() => resetGame("GAME", "GAME")}>GAME</button>
         </div>
       </header>
+
       <main className="typing-zone">
-        <div className="stats-header">
-          <div className={`stat-item ${timerClass}`}>
-            TIME <span>{timeLeft}s</span>
-          </div>
-          <div className="stat-item">
-            WPM <span>{wpm}</span>
-          </div>
-          <div className="stat-item">
-            ACCURACY <span>{accuracy}%</span>
-          </div>
-        </div>
-        {isFinished ? (
-          <div className="result-card">
-            <h2>FINISHED!</h2>
-            <p>
-              Speed: {wpm} WPM | Accuracy: {accuracy}%
-            </p>
-            <button
-              className="restart-btn"
-              onClick={() => {
-                setTimeLeft(60);
-                setIsFinished(false);
-                setUserInput("");
-                setWpm(0);
-                setStartTime(null);
-                setUsedIndexes([]);
-                setRandomFact(category);
-              }}
-            >
-              RESTART TERMINAL
-            </button>
-          </div>
-        ) : (
-          <div className="neon-card" onClick={() => inputRef.current.focus()}>
-            <div className="text-display">
-              {currentText.split("").map((c, i) => {
-                let s =
-                  i < userInput.length
-                    ? userInput[i] === c
-                      ? "correct"
-                      : "wrong"
-                    : i === userInput.length
-                    ? "cursor"
-                    : "";
-                return (
-                  <span key={i} className={s}>
-                    {c}
-                  </span>
-                );
-              })}
+        {isFinished && (
+          <div className="result-pop-out">
+            <div className="glass-overlay"></div>
+            <div className="result-card-modal">
+              <h2>TYPING REPORT</h2>
+              <div className="result-divider"></div>
+              <div className="result-main-stats">
+                <div className="res-stat-circle">WPM <span>{wpm}</span></div>
+                <div className="res-stat-circle">ACC <span>{accuracy}%</span></div>
+              </div>
+              <button className="theme-btn restart-btn" onClick={() => resetGame(mode, category)}>TRY AGAIN</button>
             </div>
-            <input
-              ref={inputRef}
-              type="text"
-              value={userInput}
-              onChange={handleInput}
-              autoComplete="off"
-            />
+          </div>
+        )}
+
+        {mode !== "GAME" ? (
+          <>
+            <div className="stats-header">
+              {mode === "PRO" && <div className="stat-item">TIME <span>{timeLeft}s</span></div>}
+              <div className="stat-item">WPM <span>{wpm}</span></div>
+              {mode !== "PRO" && <div className="stat-item">STREAK <span className="streak-val">{streak}</span></div>}
+              <div className="stat-item">ACCURACY <span>{accuracy}%</span></div>
+            </div>
+            <div className="neon-card">
+              <div className="text-display center-text">
+                {currentText.split("").map((c, i) => (
+                  <span key={i} className={i < userInput.length ? (userInput[i] === c ? "correct" : "wrong") : i === userInput.length ? "cursor" : "faded"}>{c}</span>
+                ))}
+              </div>
+              <input ref={inputRef} type="text" value={userInput} onChange={handleInput} autoComplete="off" className="hidden-input" />
+            </div>
+            <div className="bottom-subject-bar">
+              {Object.keys(mode === "PRO" ? subjects : beginnerLessons).map((s) => (
+                <button key={s} className={category === s ? "active-subject" : ""} onClick={() => resetGame(mode, s)}>{s}</button>
+              ))}
+            </div>
+          </>
+        ) : (
+          <div className="game-coming-soon">
+            <h2 className="coming-soon-text">GAME MODE</h2>
+            <p className="coming-soon-sub">COMING SOON - STAY TUNED</p>
           </div>
         )}
       </main>
-      <footer className="footer-credits">
-        DEVELOPED BY MUNISH SHARMA • 2026
-      </footer>
+      <footer className="footer-credits">Developed by MUNISH SHARMA (2026)</footer>
     </div>
   );
 }
