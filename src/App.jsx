@@ -113,24 +113,66 @@ const subjects = {
 const beginnerLessons = {
   "HOME ROW": [
     "asdf jkl; ASDF JKL;", 
+    "asdf jkl; ASDF JKL;", 
+    "asdf jkl; ASDF JKL;", 
+    "asdf jkl; ASDF JKL;", 
+    "fghj fghj FGHJ FGHJ", 
+    "fghj fghj FGHJ FGHJ", 
+    "fghj fghj FGHJ FGHJ", 
     "fghj fghj FGHJ FGHJ", 
     "asdf gh jkl; ASDF GH JKL;", 
+    "asdf gh jkl; ASDF GH JKL;", 
+    "asdf gh jkl; ASDF GH JKL;", 
+    "asdf gh jkl; ASDF GH JKL;", 
+    "aj sk dl f; AJ SK DL F;",
+    "Aj Sk Dl f: aJ sK dL f;",
+    "Aj Sk Dl f: aJ sK dL f;",
+    "Aj Sk Dl f: aJ sK dL f;",
+    "Aj Sk Dl f: aJ sK dL f;",
+    "aj sk dl f; AJ SK DL F;",
     "aj sk dl f; AJ SK DL F;", 
-    "fads glass flasks SALAD GLASS"
+    "Glass Flasks Salad Glass"
+    "Glass Flasks Salad Glass"
+    "Glass Flasks Salad Glass"
+    "Glass Flasks Salad Glass"
   ],
   "TOP ROW": [
-    "qwer tpoi QWER TPOI", 
+    "qwert yuiop QWERT YUIOP",
+    "qwert yuiop QWERT YUIOP",
+    "qwert yuiop QWERT YUIOP",
+    "qwert yuiop QWERT YUIOP",
+    "qwert yuiop QWERT YUIOP",
+    "qWeR tPoI QwEr TpOi",
+    "qWeR tPoI QwEr TpOi",
+    "qWeR tPoI QwEr TpOi",
+    "qWeR tPoI QwEr TpOi",
+    "QWer tpOI QR UP",
+    "QWer tpOI QR UP",
+    "QWer tpOI QR UP",
+    "QWer tpOI QR UP",
     "qwert yuiop QWERT YUIOP", 
-    "qetuo qetuo QETUO QETUO", 
-    "type writer TYPE WRITER", 
-    "power quiet route POWER QUIET"
+    "qwert yuiop QWERT YUIOP",
+    "qwert yuiop QWERT YUIOP",
+    "qwert yuiop QWERT YUIOP",
+    "qetuo qetuo QETUO QETUO",
+    "qetuo qetuo QETUO QETUO",
+    "qetuo qetuo QETUO QETUO",
+    "qetuo qetuo QETUO QETUO",
+    "Type Writer Type Writer",
+    "Type Writer Type Writer",
+    "Type Writer Type Writer",
+    "Type Writer Type Writer",
+    "Power Quiet Route Power Quiet"
+    "Power Quiet Route Power Quiet"
+    "Power Quiet Route Power Quiet"
+    "Power Quiet Route Power Quiet"
   ],
   "BOTTOM ROW": [
     "zxcv m,./ ZXCV M,./", 
     "zxcvb nm,./ ZXCVB NM,./", 
     "vbnm vbnm VBNM VBNM", 
-    "zone civic music ZONE CIVIC", 
-    "boxer vapor zebra BOXER VAPOR"
+    "Zone Civic Music Zone Civic", 
+    "Boxer Vapor Zebra bOXER vAPOR"
   ],
   "ALL ROWS": [
     "The Quick Brown Fox Jumps Over The Lazy Dog",
