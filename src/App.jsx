@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./styles.css";
 
-// Subjects data (History, Geography, etc.) remains same as provided before
 const subjects = {
   HISTORY: [
     "First site of Harappan Civilization discovered in 1921 by Dayaram Sahni.",
@@ -115,7 +114,7 @@ export default function App() {
   const [isFinished, setIsFinished] = useState(false);
   const [streak, setStreak] = useState(0);
   const [lessonIndex, setLessonIndex] = useState(0);
-  const [shuffledData, setShuffledData] = useState([]); // Shuffle storage
+  const [currentLessonSet, setCurrentLessonSet] = useState([]);
   const inputRef = useRef(null);
 
   const shuffleArray = (array) => {
@@ -131,15 +130,16 @@ export default function App() {
     if (currentMode === "PRO") {
       const data = subjects[cat];
       setCurrentText(data[Math.floor(Math.random() * data.length)]);
-    } else {
-      let data = shuffledData.length > 0 ? shuffledData : beginnerLessons[cat];
+    } else if (currentMode === "BEGINNER") {
+      let data =
+        currentLessonSet.length > 0 ? currentLessonSet : beginnerLessons[cat];
 
       if (lessonIndex >= data.length) {
-        // Round complete - Shuffle for next round
+        // Shuffle after one full cycle
         const newlyShuffled = shuffleArray(beginnerLessons[cat]);
-        setShuffledData(newlyShuffled);
-        setLessonIndex(1);
+        setCurrentLessonSet(newlyShuffled);
         setCurrentText(newlyShuffled[0]);
+        setLessonIndex(1);
       } else {
         setCurrentText(data[lessonIndex]);
         setLessonIndex((prev) => prev + 1);
@@ -148,11 +148,11 @@ export default function App() {
   };
 
   useEffect(() => {
-    if (!isWelcome && !isFinished && currentText === "") {
+    if (!isWelcome && !isFinished && mode !== "GAME") {
       const initialData =
         mode === "PRO" ? subjects[category] : beginnerLessons[category];
       setCurrentText(initialData[0]);
-      setShuffledData([]); // Reset shuffle on mode/category change
+      setCurrentLessonSet(initialData);
       setLessonIndex(1);
     }
   }, [category, mode, isWelcome, isFinished]);
@@ -235,7 +235,7 @@ export default function App() {
     setStreak(0);
     setLessonIndex(0);
     setCurrentText("");
-    setShuffledData([]);
+    setCurrentLessonSet([]);
   };
 
   const themeClass =
@@ -408,4 +408,3 @@ export default function App() {
     </div>
   );
 }
-
